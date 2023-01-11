@@ -1,4 +1,6 @@
-
+body {
+    background-color: gray;
+}
 #content {
     border:red 5px dashed;background-color:lightpink;
     margin: 0;
