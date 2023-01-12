@@ -6,3 +6,9 @@ ol {color:blue;
 }
 ul {color:blue;
 }
+#float p {
+    color:blueviolet;
+}
+#seven {
+    float:left
+}

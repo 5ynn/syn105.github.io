@@ -1,0 +1,35 @@
+h1 {
+    color:darkred;
+    background-color: blanchedalmond;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding-right: 5px;
+    font-weight: 400; 
+}
+#float {
+    float: right;
+    margin-left: 10px;
+}
+#Content {
+    border: black 2px solid;
+    background-color: blanchedalmond;
+    margin: 15px;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
