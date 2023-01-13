@@ -3,27 +3,36 @@ h1 {
     background-color: blanchedalmond;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+    text-decoration: underline;
 }
 h3 {
     color: darkred;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-size:x-large;
+    text-decoration: underline;
 }
 p {
     font-style: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
-    padding-right: 5px;
+    padding-right: 20px;
+    margin: 8px;
     font-weight: 400;
-    padding: 5px;
 }
-#float {
-    float: right;
+#float1 {
+    float: right; 
+    width: auto; height: 150px;
+    padding: 5px;
+    margin: 5px;
 }
 #Content {
     border: black 2px solid;
     background-color: blanchedalmond;
-    margin: 15px;
-    padding: 20px;
+    margin: 20px;
+    padding: 15px;
+    width: 300px; height: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a {
@@ -32,4 +41,31 @@ a {
 a:hover {
     text-decoration: underline;
     color: blueviolet;
+}
+body {
+    border: 2px black solid;
+    padding:20px;
+    margin:20px;
+}
+img {
+    padding: 5px;
+    margin: 5px;
+}
+#float1{
+    float: left;
+    width: auto; height: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+#float2 {
+    float: left; 
+    width: auto; height: 170px;
+    padding: 5px;
+    margin: 5px;
+}
+#float3 {
+    float: right; 
+    width: auto; height: 180px;
+    padding: 5px;
+    margin: 5px;
 }
