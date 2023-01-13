@@ -20,17 +20,11 @@ p {
     margin: 8px;
     font-weight: 400;
 }
-#float1 {
-    float: right; 
-    width: auto; height: 150px;
-    padding: 5px;
-    margin: 5px;
-}
 #Content {
     border: black 2px solid;
     background-color: blanchedalmond;
     margin: 20px;
-    padding: 15px;
+    padding: 20px;
     width: 300px; height: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -50,21 +44,21 @@ img {
     padding: 5px;
     margin: 5px;
 }
-#float1{
-    float: left;
-    width: auto; height: 200px;
-    padding: 5px;
-    margin: 5px;
+#float1 {
+    float: right;
+    width: auto; height: 300px;
+    padding: 10px;
+    margin: 10px;
 }
 #float2 {
     float: left; 
-    width: auto; height: 170px;
-    padding: 5px;
-    margin: 5px;
+    width: 200px; height: auto;
+    padding: 10px;
+    margin: 10px;
 }
 #float3 {
     float: right; 
-    width: auto; height: 180px;
-    padding: 5px;
-    margin: 5px;
+    width: auto; height: 170px;
+    padding: 10px;
+    margin: 10px;
 }
