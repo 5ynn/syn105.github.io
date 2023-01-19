@@ -39,4 +39,16 @@ ul {
     margin-right: auto;
 }
 
-/* media queries: tablet */
+/* media queries*/
+@media only screen and (max-width: 768px)
+{
+    body {
+        background-color: brown;
+    }
+}
+@media (max-width: 600px)
+{
+    p {
+        background-color: beige;
+    }
+}
