@@ -19,14 +19,15 @@ li {
 }
 h1 {
     text-align: center;
-    font-size:xx-large
+    font-size:xx-large;
+    text-decoration: underline;
 }
 ul {
     display: flex;
     list-style-type: none;
     gap: 10px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     padding-left: 0px;
     margin: 5px;
 }
@@ -59,12 +60,9 @@ section {
 img {
     width: 200px; height: auto;
 }
-#employee {
-    height: auto;
-    display: flex;
-    justify-content: center;
+#profile{
+    margin-right: auto;
 }
-
 /* media queries */
 @media (max-width: 768px)
 {
