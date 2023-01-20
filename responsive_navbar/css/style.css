@@ -2,6 +2,10 @@
     position: absolute;
     z-index: 99;
     display: none;
+    background-color: rgb(231, 185, 185);
+    padding: 20px;
+    border: 2px solid rgb(148, 52, 62);
+    
 }
 .dropdown:hover .dropdown-menu {
     display:block;
@@ -10,10 +14,12 @@
     transition-property: 0.5s;
 }
 li {
-    display: inline;
+    font-size:larger;
+    text-align: left;
 }
 h1 {
     text-align: center;
+    font-size:xx-large
 }
 ul {
     display: flex;
@@ -26,10 +32,11 @@ ul {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover {
     letter-spacing: 1px;
-    text-decoration: blue;
+    color: blue;
     text-decoration: underline;
 }
 body {
@@ -39,7 +46,7 @@ body {
 main {
     background-color: rgb(231, 185, 185);
     padding: 20px;
-       border: 7px solid rgb(148, 52, 62);
+    border: 7px solid rgb(148, 52, 62);
 }
 nav {
     position: sticky;
@@ -49,6 +56,17 @@ nav {
 section {
     padding: 20px;
 }
-h1 {
-    font-size: xx-large;
+img {
+    width: 200px; height: auto;
+}
+#employee {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* media queries */
+@media (max-width: 768px)
+{
+
 }
