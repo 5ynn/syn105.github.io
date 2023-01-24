@@ -1,0 +1,13 @@
+table, tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+thead {
+    background-color: rgb(182, 209, 232);
+}
+tr:hover {
+    background-color: rgb(237, 204, 198);
+}
+tr:nth-of-type(odd) {
+    background-color: antiquewhite;
+}
