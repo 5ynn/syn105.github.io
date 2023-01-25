@@ -1,0 +1,90 @@
+/* unordered list styles */
+ul {
+    display: flex;
+    position: sticky;
+    top:0px;
+    list-style: none;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+/* list styles */
+li {
+    padding: 20px;
+}
+/* link styles */
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.card_wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+/* gallery styles */
+#sitegrid {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-template-areas:
+    "navArea navArea navArea"
+    ". galleryArea .";
+}
+/* nav styles */
+nav {
+    grid-area: navArea;
+}
+/* gallery styles */
+#galleries {
+    grid-area: galleryArea;
+    text-align: center;
+}
+#gallery1, #gallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery1 img, #gallery3 img {
+    width: 100%;
+}
+#gallery2 img{
+    height: 266.66px;
+    width: 266.66px;
+    object-fit: cover;
+}
+#gallery3 {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+/* heading styles */
+h1 {
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans', 
+    Arial, 
+    sans-serif;
+}
+/* media queries */
+@media screen and (max-width: 768px) {
+    #sitegrid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "navArea"
+        "galleryArea";
+    }
+    #gallery1, #gallery2 {
+        grid-template-columns: 1fr;
+    }
+    #gallery2 img {
+        width: 100%;
+        height: auto;
+    }
+    #gallery3 {
+        columns: 2 auto;
+    }
+}

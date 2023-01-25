@@ -1,0 +1,26 @@
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-areas:
+    "header header header header"
+    "main main main nav"
+    "footer footer footer footer";
+    height:100vh;
+}
+header {
+    grid-area: header;
+    background-color: rgb(222, 222, 237);
+}
+nav {
+    grid-area: nav;
+    background-color: rgb(173, 196, 215);
+}
+main {
+    grid-area: main;
+    background-color: rgb(182, 215, 215);
+}
+footer {
+    grid-area: footer;
+    background-color: rgb(202, 185, 218);
+}
