@@ -21,48 +21,49 @@
                 <form action="POST">
                     <h2>Create a New Account</h2>
                     <p id="easy">It's quick and easy.</p>
+                    <hr>
                     <br>
-                    <input type="text" name="First-Name" id="First" placeholder="First Name">
-                    <input type="text" name="Last-Name" id="Last" placeholder="Last Name">
-                    <br>
-                    <br>
-                    <input type="text" name="mobile" id="phone" placeholder="Mobile number or email">
+                    <input type="text" name="First-Name" id="First" placeholder="First Name" required>
+                    <input type="text" name="Last-Name" id="Last" placeholder="Last Name" required>
                     <br>
                     <br>
-                    <input type="password" name="pass" id="word" placeholder="New Password">
+                    <input type="text" name="mobile" id="phone" placeholder="Mobile number or email" required>
                     <br>
-                    <p>Birthday</p>
-                    <select name="select-menu" class="menu">
+                    <br>
+                    <input type="password" name="pass" id="word" placeholder="New Password" required minlength="4" maxlength="8">
+                    <br>
+                    <p class="sub">Birthday</p>
+                    <select name="select-menu" class="menu" required>
                         <option value="Aug">Aug</option>
                         <option value="Sept">Sept</option>
                         <option value="Oct">Oct</option>
                     </select>
-                    <select name="select-menu" class="menu">
+                    <select name="select-menu" class="menu" required>
                         <option value="11">11</option>
                         <option value="12">12</option>
                         <option value="13">13</option>
                     </select>
-                    <select name="select-menu" class="menu">
+                    <select name="select-menu" class="menu" required>
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                     </select>
                     <br>
-                    <p>Gender</p>
-                    <input type="radio" name="" id="" value=>
-                    <input type="radio" name="" id="" value="">
-                    <input type="radio" name="" id="" value="">
+                    <p class="sub">Gender</p>
+                    <label for="card-name">Female</label>
+                    <input type="radio" name="Female" id="fe" value="Female" class="rad" required>
+                    <label for="card-name">Male</label>
+                    <input type="radio" name="Male" id="me" value="Male" class="rad" required>
+                    <label for="card-name">Custom</label>
+                    <input type="radio" name="Custom" id="cus" value="Custom" class="rad" required>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, cum.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laborum aut magnam sequi officia. Iure?</p>
+                    <p class="para">People who use our service may have uploaded your contact information to Facebook.<a href="#">Learn more.</a></p>
+                    <p class="para">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy.</a> You may receive SMS Notifications from us and can opt out any time.</p>
                     <input type="submit" value="Sign Up" id="sign">
                     <h4>Already have an account?</h4>
                 </form>
             </div>
         </section>
-        <div class="gap">
-            
-        </div>
     </main>
 </body>
 </html>

@@ -4,7 +4,7 @@
 }
 
 body {
-    margin:0;
+    margin: auto;
     font-family: "Helvetica", "Arial", sans-serif;
     background-color: #f0f2f5;
 }
@@ -25,7 +25,7 @@ main {
 .form {
     background-color: white;
     border-radius: 15px;
-    padding:20px;
+    padding: 20px;
     box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
     color: #444;  
 }
@@ -34,12 +34,81 @@ h2, #easy, h4  {
     text-align: center;
 }
 
-#First, #Last, #phone, #word, .menu {
+#First, #Last, #phone, #word, .menu, #sign {
+    display: inline;
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 9%;
 }
-#Last {
-    margin-left: 10px;
+
+#phone, #word {
+   padding-right: 50%;
 }
+
+.para {
+    font-size: smaller;
+    color: rgb(110, 107, 107);
+    flex-wrap: nowrap;
+}
+
+.sub {
+    font-size: small;
+    color: black;
+}
+
+#sign{
+    display: block;
+    background-color: rgb(26, 141, 30);
+    border: 1px;
+    color: white;
+    font-size: larger;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+h4 {
+    color: #1877f2;
+}
+
+h2 {
+    padding-bottom: 0px;
+}
+
+input[type="text"]:valid {
+    border: solid green 2px;
+}
+input[type="text"]:invalid {
+    border: solid red 2px;
+}
+
+input[type="password"]:valid {
+    border: solid green 2px;
+}
+
+input[type="password"]:invalid {
+    border: solid red 2px;
+}
+
+select:valid {
+    border: solid green 2px;
+}
+
+select:invalid {
+    border: solid red 2px;
+}
+
+a { 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+} 
+
 @media screen and (max-width: 1200px) {
     main {
         grid-template-columns: 20% 60% 20%;

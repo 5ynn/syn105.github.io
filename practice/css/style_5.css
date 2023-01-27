@@ -1,0 +1,19 @@
+input:valid {
+    border: valid green 2px;
+}
+
+input:invalid {
+    border: valid red 2px;
+}
+input[type="text"]:valid {
+    border: solid green 2px;
+}
+input[type="text"]:invalid {
+    border: solid red 2px;
+}
+input[type="number"]:valid {
+    border: solid green 2px;
+}
+input[type="number"]:invalid {
+    border: solid red 2px;
+}
