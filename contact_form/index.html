@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- link to css sheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- title -->
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <main>
+            <div class="head">
+                <h1>Contact Us</h1>
+            </div>
+            <div id="under-head">
+                <p>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible</p>
+            </div>
+                <section id="contact-page">
+                    <form id="info">
+                        <fieldset id="field">
+                            <legend>Customer Information</legend>
+                            <br>
+                            <label for="drop-down">What can we help you with?</label>
+                            <br>
+                            <!--  select: drop down menu -->
+                            <select name="drop-down" id="drop-down" required>
+                                <option value="~~None~~">~~None~~</option>
+                                <option value="Select what we can help you with?">Select what we can help you with?</option>
+                                <option value="Website / Mobile App">Website / Mobile App</option>
+                                <option value="Update Information">Update Information</option>
+                                <option value="Service Experience">Service Experience</option>
+                                <option value="Payment">Payment</option>
+                                <option value="Billing Information">Billing Information</option>
+                                <option value="Other Feedback">Other Feedback</option>
+                            </select>
+                            <br>
+                            <br>
+                            <!-- input fields -->
+                            <label for="full-name">Name</label>
+                            <br>
+                            <input type="text" name="full-name" id="full-name" required>
+                            <br>
+                            <br>
+                            <label for="e-mail">Email</label>
+                            <br>
+                            <input type="email" name="e-mail" id="e-mail" required>
+                            <br>
+                            <br>
+                            <label for="phone">Phone</label>
+                            <br>
+                            <input type="tel" name="phone" id="phone" required maxlength="13">
+                            <br>
+                            <br>
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea name="message" id="" cols="50" rows="10">Some Text....</textarea>
+                            <br>
+                            <br>
+                            <!-- submit button -->
+                            <div id="send-button">
+                                <input type="submit" value="Send" id="send-button">
+                            </div>    
+                        </fieldset>
+                    </form>
+                </section>
+        </main>
+    </body>
+</html>

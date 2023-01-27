@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(220, 223, 226);
+    margin: auto;
+}
+form {
+    margin: 20px;
+    padding: 20px;
+}
+.head, #under-head {
+    text-align: center; 
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+#field {
+    background-color: white;
+}
+
+/* text input validation */
+
+input[type="text"]:valid {
+    border: solid green 2px;
+}
+input[type="text"]:invalid {
+    border: solid red 2px;
+}
+
+/* email input validation */
+
+input[type="email"]:valid {
+    border: solid green 2px;
+}
+
+input[type="email"]:invalid {
+    border: solid red 2px;
+}
+
+/* phone input validation */
+
+input[type="tel"]:valid {
+    border: solid green 2px;
+}
+input[type="tel"]:invalid {
+    border: solid red 2px;
+}
+
+/* select input validation */
+
+select:valid {
+    border: solid green 2px;
+}
+
+select:invalid {
+    border: solid red 2px;
+}
+input[type="submit"] {
+    display: block;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(85, 138, 203);
+    color: white;
+}
+legend {
+    text-align: center;
+}
