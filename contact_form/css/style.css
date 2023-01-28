@@ -1,6 +1,6 @@
 /* body styling */
 body {
-    background-color: rgb(220, 228, 237);
+    background-color: rgb(229, 246, 244);
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -81,10 +81,14 @@ select:invalid {
     border: solid red 2px;
 }
 
-/* textbox styling: inputs */
+/* textbox and select styling: inputs */
 
 .text-box {
-    padding-right: 83px;
+    padding-right: 279.5px;
+}
+
+select {
+    padding-right: 198px;
 }
 
  /* input styling */
@@ -100,6 +104,10 @@ input[type="submit"] {
     background-color: rgb(85, 138, 203);
     color: white;
     font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea, select {
