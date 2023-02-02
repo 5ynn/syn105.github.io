@@ -38,6 +38,7 @@
       </div>
     </nav>
     <section>
+
       <!-- HERO CSS GOES HERE -->
       <div class="site-hero">
         <div class="hero-text">
@@ -48,48 +49,109 @@
     </section>
     <!-- DAY 1 STOP HERE -->
     <main>
-      <!-- Image grid here -->
-      <div class="d-grid gap-2 d-md-flex justify-content-center" class="blue">
-        <button type="button" class="btn btn-primary btn-sm">Illlustration Examples</button>
-        <button type="button" class="btn btn-primary btn-sm">Photoshop Examples</button>
-      </div>
       <hr>
-      <div class="container">
-        <div class="row gap-15">
-          <div class="col-lg-3">
-            <img src="assets/images/blueberries-ImResizer.jpg" alt="blueberries" class="w-30">
+     <!-- Carousel -->
+    <br>
+    <div id="slide">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/moutains.jpg" class="d-block w-100 img-fluid" alt="snowy moutains">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Snowy Mountains</h5>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/images/strawberries-ImResizer.jpg" alt="strawberries" class="w-30">
+          <div class="carousel-item">
+            <img src="assets/images/sunset.jpg" class="d-block w-100 img-fluid" alt="sunset">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Calming Sunset</h5>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/images/watermelon-ImResizer.jpg" alt="watermelon slices" class="w-30">
+          <div class="carousel-item">
+            <img src="assets/images/forest.jpg" class="d-block w-100 img-fluid" alt="green forest">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Green Forest</h5>
+            </div>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="container">
-        <div class="row gap-15">
-          <div class="col-lg-3">
-            <img src="assets/images/radishes-ImResizer.jpg" alt="radishes" class="w-30">
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/images/peas-ImResizer.jpg" alt="frozen peas" class="w-30">
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/images/vegetables-ImResizer.jpg" alt="vegetables" class="w-30">
+    </div>
+    <br>
+    <br>
+      <!-- Collaspe button for image grid-->
+
+        <div id="collaspe-button">
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Collaspe</a>
+        </div>
+<!--
+      <div class="d-grid gap-2 d-md-flex justify-content-center" class="blue">
+        <button type="button" class="btn btn-primary btn-sm"></button>
+        <button type="button" class="btn btn-primary btn-sm">Photoshop Examples</button>
+      </div> -->
+
+      <!-- Image grid w/respondsiveness here -->
+
+      <hr>
+      <div id="collapseExample">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/images/blueberries-ImResizer.jpg" alt="blueberries" class="w-100 mt-4 mb-4">
+              <p>Blueberries</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/strawberries-ImResizer.jpg" alt="strawberries" class="w-100 mt-4 mb-4">
+              <p>Strawberries</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/watermelon-ImResizer.jpg" alt="watermelon slices" class="w-100 mt-4 mb-4">
+              <p>Sliced Watermelons</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row gap-15">
-          <div class="col-lg-3">
-            <img src="assets/images/palm-ImResizer.jpg" alt="palm leaves" class="w-30">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/images/radishes-ImResizer.jpg" alt="radishes" class="w-100 mt-4 mb-4">
+              <p>Radishes</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/peas-ImResizer.jpg" alt="frozen peas" class="w-100 mt-4 mb-4">
+              <p>Frozen Peas</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/vegetables-ImResizer.jpg" alt="vegetables" class="w-100 mt-4 mb-4">
+              <p>Mixed Vegetables</p>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <img src="assets/images/leaves-ImResizer.jpg" alt="wet leaves" class="w-30">
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/images/pots-ImResizer.jpg" alt="potted plants" class="w-30">
+        </div>
+        <div class="container text-center">
+          <div class="row gap">
+            <div class="col-lg-4">
+              <img src="assets/images/palm-ImResizer.jpg" alt="palm leaves" class="w-100 mt-4 mb-4">
+              <p>Palm Leaves</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/leaves-ImResizer.jpg" alt="wet leaves" class="w-100 mt-4 mb-4">
+              <p>Wet Leaves</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/images/pots-ImResizer.jpg" alt="potted plants" class="w-100 mt-4 mb-4">
+              <p>Potted Plants</p>
+            </div>
           </div>
         </div>
       </div>
@@ -147,7 +209,8 @@
       <p>MadeByParry @ FIRST Institute - 2022</p>
       <a href="https://github.com/nicholasparryfirst/nicholasparryfirst.github.io"><p>MBP Educational Network on GitHub</p></a>
     </div>
-
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>

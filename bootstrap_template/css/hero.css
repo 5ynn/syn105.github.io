@@ -32,17 +32,39 @@
     color: rgb(254, 249, 249);
 }
 
-/* image styling */
-
-
 /* button styling */
 
-button[type="button"] {
+/* button[type="button"] {
     background-color: aliceblue;
     border-color: rgb(170, 170, 196);
     border: 1.5px solid rgb(125, 125, 174);
     color:rgb(0, 0, 0);
     margin: 3vh;
+} */
+
+/* caruosel styling */
+
+.carousel-item img {
+    height: 100%;
+    object-fit:contain;
+}
+.carousel-item {
+    height: 800px;
+}
+.carousel-inner {
+    margin-top: 20px;
+    width: 800px;
+}
+#slide {
+    padding-top: 20px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* button styling */ 
 
+#collaspe-button {
+    display: flex;
+    justify-content: center;
+}
