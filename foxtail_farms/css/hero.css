@@ -46,7 +46,7 @@
 
 .carousel-item img {
     height: 100%;
-    object-fit:contain;
+    object-fit: fill;
 }
 .carousel-item {
     height: 800px;
@@ -56,10 +56,16 @@
     width: 800px;
 }
 #slide {
-    padding-top: 20px;
-    width: 850px;
+    padding-top: 10px;
+    width:fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+
+#lemon {
+    object-fit: contain;
+    width:fit-content;
+    width: 900px;
 }
 
 /* button styling */ 
