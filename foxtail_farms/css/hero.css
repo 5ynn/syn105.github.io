@@ -1,0 +1,112 @@
+/* font style link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* header style */
+
+.site-hero {
+    background-image: url("../assets/images/produce_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.hero-text h2 {
+    margin-top: 0;
+    font-size: 4em;
+    color: black;
+}
+
+.hero-text h4 {
+    font-size: 2em;
+}
+
+.hero-text {
+    text-align: center;
+    font-family:"bebas neue", cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(254, 249, 249);
+}
+
+/* button styling */
+
+/* button[type="button"] {
+    background-color: aliceblue;
+    border-color: rgb(170, 170, 196);
+    border: 1.5px solid rgb(125, 125, 174);
+    color:rgb(0, 0, 0);
+    margin: 3vh;
+} */
+
+/* caruosel styling */
+
+.carousel-item img {
+    height: 100%;
+    object-fit:contain;
+}
+.carousel-item {
+    height: 800px;
+}
+.carousel-inner {
+    margin-top: 20px;
+    width: 800px;
+}
+#slide {
+    padding-top: 20px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* button styling */ 
+
+#collaspe-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* nav styling */
+
+nav, p, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: sticky;
+    margin: 0;
+    text-decoration: white;
+    
+}
+
+.nav-item dropdown {
+    position: absolute;
+    z-index: 99;
+    display: none;
+    padding: 10px;  
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display:block;
+    color: #e1a177; 
+}
+
+.dropdown {
+    transition-property: 0.5s;
+}
+
+#color {
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link {
+    color: white;
+}
