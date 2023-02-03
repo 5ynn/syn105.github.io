@@ -5,7 +5,7 @@
 /* header style */
 
 .site-hero {
-    background-image: url("../assets/images/produce_2.jpg");
+    background-image: url("../assets/images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 80vh;
@@ -17,7 +17,7 @@
 .hero-text h2 {
     margin-top: 0;
     font-size: 4em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .hero-text h4 {
@@ -78,7 +78,6 @@ nav, p, h3, h4, h5 {
 nav {
     position: sticky;
     margin: 0;
-    text-decoration: white;
     
 }
 
@@ -99,14 +98,10 @@ nav {
     transition-property: 0.5s;
 }
 
-#color {
-    color: aliceblue;
-}
-
 h1 {
     font-family: 'Lobster', cursive;
 }
 
-.nav-link {
-    color: white;
+.dropdown-menu:hover {
+    color: #e1a177;
 }
