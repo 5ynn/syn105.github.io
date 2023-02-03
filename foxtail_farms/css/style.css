@@ -32,7 +32,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#f8feff;
+  background-color:#000000;
   color:#2e4c83;
 }
 .header-top{
@@ -136,7 +136,7 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #f8feff;
+  background-color: #000000;
   border-top:2px solid #2e4c83;
 }
 footer {
