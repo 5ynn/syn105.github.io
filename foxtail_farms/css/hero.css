@@ -39,6 +39,12 @@ h1 {
     text-shadow:none;
 }
 
+
+figcaption:hover {
+    text-decoration: underline;
+    color: #e1a177;
+}
+
 /* button styling */
 
 /* button[type="button"] {
@@ -104,7 +110,6 @@ nav {
 .navbar-brand {
     width: 5%;
     height: auto;
-   
 }
   
 .navbar-brand svg {
