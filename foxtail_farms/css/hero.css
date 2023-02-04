@@ -39,6 +39,10 @@ h1 {
     text-shadow:none;
 }
 
+figcaption {
+    padding-bottom: 0px;
+}
+
 /* button styling */
 
 /* button[type="button"] {
@@ -84,7 +88,7 @@ h1 {
 
 /* nav styling */
 
-nav, p, h6, h5, li {
+nav, p, h6, h5, li, figcaption {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -97,8 +101,8 @@ nav {
     position: absolute;
     z-index: 99;
     display: none;
-    padding: 10px;  
-    color: white;
+    padding: 10px;
+    color: white;  
 }
 
 .navbar-brand {
@@ -121,10 +125,6 @@ nav {
 .dropdown {
     transition-property: 0.5s;
 }
-
-.dropdown-menu .dropdown-item:hover {
-    color: #e1a177;
-} 
 
 /* footer styling */
 

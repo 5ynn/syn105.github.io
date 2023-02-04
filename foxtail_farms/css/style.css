@@ -6,9 +6,9 @@
 /*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
 
 /* typography: */
-/* body, main, footer, nav, header {
+body, main, footer, nav, header {
   font-family: "Open Sans";
-} */
+}
 /* a {
   color:#192e55;
 } */
@@ -30,6 +30,7 @@ nav {
   border-bottom: 2px solid #e1a177;
   position:sticky;
   top:0px;
+  box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
   display:flex;
   justify-content: space-between;
   z-index: 99;
@@ -59,6 +60,9 @@ nav a:hover {
   color:#f8feff;
 }
 
+#site_logo {
+  width:100%;
+}
 /* .site_title {
   font-family: "Bebas Neue";
   font-size: 4em;
