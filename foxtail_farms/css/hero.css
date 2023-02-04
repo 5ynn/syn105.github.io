@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/* header style */
+/* header/font style */
 
 .site-hero {
     background-image: url("../assets/images/bg.jpg");
@@ -13,23 +13,30 @@
     justify-content: center;
     align-items: center;
 }
-    
-.hero-text h2 {
-    margin-top: 0;
-    font-size: 4em;
-    color: rgb(255, 255, 255);
-}
-
-.hero-text h4 {
-    font-size: 2em;
-}
 
 .hero-text {
     text-align: center;
-    font-family:"bebas neue", cursive;
     font-weight: bold;
     font-style: italic;
     color: rgb(254, 249, 249);
+}
+
+h1 {
+    font-family: "Lobster";
+}
+
+/* caption styling */
+
+.captions, h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #e1a177;
+}
+
+.captions:hover {
+    text-decoration:underline;
+    color: #000000;
+    text-shadow:none;
 }
 
 /* button styling */
@@ -44,7 +51,7 @@
 
 /* caruosel styling */
 
-.carousel-item img {
+/* .carousel-item img {
     height: 100%;
     object-fit: fill;
 }
@@ -66,25 +73,24 @@
     object-fit: contain;
     width:fit-content;
     width: 900px;
-}
+} */
 
 /* button styling */ 
-
+/* 
 #collaspe-button {
     display: flex;
     justify-content: center;
-}
+} */
 
 /* nav styling */
 
-nav, p, h3, h4, h5 {
+nav, p, h6, h5, li {
     font-family: 'Montserrat', sans-serif;
 }
 
 nav {
     position: sticky;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 .nav-item dropdown {
@@ -95,6 +101,18 @@ nav {
     color: white;
 }
 
+.navbar-brand {
+    width: 5%;
+    height: auto;
+   
+}
+  
+.navbar-brand svg {
+    margin-right: 0px;
+}
+
+/* drop down styling */
+
 .dropdown:hover .dropdown-menu {
     display:block;
     color: #e1a177; 
@@ -104,14 +122,46 @@ nav {
     transition-property: 0.5s;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
-}
+.dropdown-menu .dropdown-item:hover {
+    color: #e1a177;
+} 
 
-.dropdown-menu:hover {
+/* footer styling */
+
+.footer-left li:hover {
+    text-decoration: underline;
     color: #e1a177;
 }
 
-body {
-    background-color: black;
+.content-container img {
+    border: #000000 solid 0.5px;
+    border-radius: 5%;
+}
+
+.content-header:hover {
+    color: #e1a177;
+    text-decoration: underline; 
+}
+
+.footer-feet:hover {
+    color: #e1a177;
+}
+
+/* img styling image grid & carousel */
+
+.img-edit {
+    height: 20vh;
+}
+
+.img-edit img {
+    height: 100%;
+}
+
+.img-fix {
+    width: 80vh;
+    height: 80vh;
+}
+
+.img-fix img {
+    width: 100%;
 }
