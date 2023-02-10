@@ -1,0 +1,40 @@
+/* nav bar styling */
+nav {
+    
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding: 1px;
+    margin: 0;
+}
+
+ul {
+    display:flex;
+    justify-items: flex-start;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0px;
+}
+
+#icon, #home-link {
+    text-decoration: none;
+    color: white
+}
+
+#icon:hover, #home-link:hover {
+    color: red;
+}
+
+/* heading styling */
+
+h1 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header {
+    margin-top: 70px;
+}
+
+/* paragraph styling */
+
