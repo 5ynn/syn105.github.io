@@ -24,7 +24,7 @@ function convertToDaysLeft(milliseconds) {
     return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
   }
 
-  let deadline = new Date("July 15, 2023 13:00:00")
+  let deadline = new Date("July 15, 2023 13:00:00");
 
   let countdown = document.getElementById("countdown");
   countdown.innerHTML = "";
@@ -33,7 +33,7 @@ function convertToDaysLeft(milliseconds) {
 
     let now = new Date();
 
-    let timeLeft = deadline.getTime() - now.getTime;
+    let timeLeft = deadline.getTime() - now.getTime();
 
     let daysLeft = convertToDaysLeft(timeLeft);
     let hoursLeft = convertToHoursLeft(timeLeft);
