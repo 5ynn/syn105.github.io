@@ -1,0 +1,13 @@
+/* body styling */
+body {
+    margin: 0;
+}
+
+/* h1 styling */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lavender;
+}
