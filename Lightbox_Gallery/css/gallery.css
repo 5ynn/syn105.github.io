@@ -47,3 +47,9 @@
     width: 100%;
   }
 }
+
+.imgs {
+  height: auto;
+  width: 500px;
+  padding: 5px;
+}
