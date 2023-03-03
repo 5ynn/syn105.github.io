@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to style sheet -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/nav.css">
+    <!-- title -->
     <title>Javascript Navbar</title>
 </head>
 <body>
     <header>
         <h1>NavCorp</h1>
     </header>
+    <!-- navigation -->
     <nav>
         <ul class="navbar">
             <li>
-                <button class="nav-button" id="nav-button">
+                <button class="nav-button" id="nav-button" onclick="toggleClass()">
                     Subpages
-                    <span id="arrow" class="arrow">^</span>
+                    <span id="arrow" class="arrow" onclick="toggleClass()">^</span>
                 </button>
                 <ul class="subpages" id="dropdown">
                     <li><a href="./subpage1.html">Subpage 1</a></li>
@@ -31,6 +34,7 @@
         </ul>
 
     </nav>
+    <!-- content -->
     <main  id="page">
         <section>
             <h3>About Us</h3>
@@ -93,9 +97,12 @@
         </section>
 
     </main>
+    <!-- footer -->
     <footer>
 
     </footer>
     <!-- Add script here -->
+    <script src="js/app.js">
+    </script>
 </body>
 </html>
