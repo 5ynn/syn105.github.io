@@ -67,3 +67,11 @@ function closeLightbox() {
 
 lightboxBackground.onclick = closeLightbox;
 lightboxCloser.onclick = closeLightbox;
+
+// get references to all elements with "closer" class
+let closers = document.getElementsByClassName("closer");
+// loop through all closer elements and attach a click function
+for (let i = 0; i < closers.item.length; i++) {
+    let closer = closers[i];
+    closer.onclick = closeLightbox;
+}
