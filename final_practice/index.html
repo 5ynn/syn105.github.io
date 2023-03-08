@@ -16,18 +16,20 @@
             <!-- navigation bar -->
             <nav>
                 <!-- logo -->
-                <img src="assets/images/Netflix-Logo.png" alt="netflix logo">
+                <img src="assets/images/Netflix-Logo.png" alt="netflix logo" id="logo">
                 <!-- language select -->
-                <select name="language" id="language">
-                    <option value="english">English</option>
-                    <option value="spanish">Spanish</option>
-                    <option value="french">French</option>
-                </select>
-                <!-- sign in button -->
-                <button>Sign In</button>
+                <div id="type">
+                    <select name="language" id="language">
+                        <option value="english">English</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                    </select>
+                    <!-- sign in button -->
+                    <button>Sign In</button>
+                </div> 
             </nav>
             <form>
-                <section>
+                <section id="sec">
                     <!-- header -->
                     <h1>Unlimited movies, TV shows, and more.</h1>
                     <!-- subtext -->
@@ -72,9 +74,9 @@
         </main>
         <footer>
             <!-- logo -->
-            <div>
+            <!-- <div>
                 <img src="assets/images/Netflix-Logo.png" alt="netflix logo">
-            </div>
+            </div> -->
             <!-- links -->
             <ul>
                 <li><a href="#">Subscriber Agreement</a></li>

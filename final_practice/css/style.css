@@ -1,0 +1,52 @@
+/* logo styling */
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+}
+
+#logo {
+    width: auto;
+    height: 150px;
+}
+
+/* text field styling */
+
+#type {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin-right: 50px;
+}
+
+/* header styling */
+
+header {
+    display: flex;
+    /* justify-content: center; */
+    background-size: 150px;
+    height: 60vh;
+    background-size: cover;
+    background: linear-gradient(black, transparent, black), url("../assets/images/netflix_bg.jpeg");
+    
+}
+
+/* form styling */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* body styling */ 
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
