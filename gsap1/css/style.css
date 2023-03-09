@@ -1,0 +1,45 @@
+/* Body Styling */
+
+body {
+    color: rgb(225, 127, 78);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Animaton Container Styling */ 
+
+.animation-container {
+    width: 85%;
+    margin: 10% auto;
+    display: flex;
+}
+
+/* Column Styling */
+
+.column {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Box Styling */
+
+.chucked {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* Text Box Styling */
+
+.text-box {
+    width: 70%;
+}
+
+.text-box h2 {
+    font-size: 3rem;
+}
