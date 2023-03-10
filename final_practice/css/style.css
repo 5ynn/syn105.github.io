@@ -8,7 +8,7 @@ nav {
 
 #logo {
     width: auto;
-    margin-left: 400px;
+    margin-left: 370px;
     height: 90px;
     padding: 30px;
 }
@@ -56,8 +56,8 @@ select {
 header {
     margin-left: auto;
     margin-right: auto;
-    background-size: 170px;
-    height: 80vh;
+    background-size: 180px;
+    height: 70vh;
     width: auto;
     background-size:contain;
     background: linear-gradient(black, transparent, black), url("../assets/images/netflix_bg.jpeg"); 
@@ -122,6 +122,7 @@ body {
 /* grid styling */
 
 .row {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
@@ -160,5 +161,25 @@ footer {
     justify-content: center;
 }
 
+/* list styling */
 
+#three {
+    background-color: white;
+    margin: 0;
+}
 
+main ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+main li {
+    margin: 20px;
+    font-size: x-large;
+}
+
+main li:hover {
+    text-decoration: underline;
+    color: red;
+}
