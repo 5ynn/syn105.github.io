@@ -122,18 +122,27 @@ body {
 /* grid styling */
 
 .row {
-    margin-top: 50px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
+    row-gap: 25px;
+}
+
+.col {
+     column-gap: 10px;
 }
 
 img {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
     height: auto;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* footer styling */
 
@@ -166,6 +175,7 @@ footer {
 #three {
     background-color: white;
     margin: 0;
+    margin-bottom: 60px;
 }
 
 main ul {

@@ -1,0 +1,208 @@
+/* Body Styling */
+body {
+    margin: 0;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+/* Nav Styling (Top Page) */
+
+#disney_logo {
+    width: 5%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+#top {
+    margin-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav #sign {
+    background-color:  rgb(72, 72, 250);
+    border: none 0;
+    color: white;
+    margin-right: 7px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+nav #login {
+    background-color: black;
+    color: white;
+    border: solid white 0.5px;
+    border-radius: 3px;
+}
+
+nav button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+/* Header Styling */ 
+
+#all {
+    background-image: url(../FinalEvalAssets/background.jpeg);
+    background-size: cover;
+    height: 70vh;
+}
+
+/* Section Styling */
+
+#form-with-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;   
+}
+
+form img {
+    width: 40%;
+    height: auto;
+}
+
+form #bundle-logo {
+    width: 30%;
+    height: auto;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+form p {
+    margin-top: 2.5%;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form #second-para {
+    margin-top: 2%;
+    font-size:small;
+}
+form {
+    padding-top: 8%;
+    transform: scale(1.2);
+}
+
+/* Input Styling */
+
+form input[type=email]{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 20%;
+    background-color: rgb(74, 74, 74);
+    border: solid 0;
+    border-radius: 2px;
+}
+
+form input[type=submit] {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(72, 72, 250);
+    border: solid 0;
+    border-radius: 2px;
+    color: white;
+}
+
+/* Horizonal List Styling */  
+
+#listing {
+    color: white;
+}
+
+main ul {
+    margin-top: 2.5%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Image Grid Styling */
+
+.row {
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2.5%;
+}
+
+.col {
+    column-gap: 2.5%;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image_grid {
+    margin: 4%;
+}
+
+/* Footer Styling */
+
+#second_logo {
+    width: 5%;
+    padding-bottom: 1em;
+}
+
+footer {
+   margin-top: 6%; 
+   background-color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer a {
+   
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
