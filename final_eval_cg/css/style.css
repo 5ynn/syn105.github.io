@@ -185,8 +185,9 @@ img {
 }
 
 footer {
-   margin-top: 6%; 
+   margin-top: 3%; 
    background-color: black;
+   margin-bottom: 2%;
 }
 
 footer ul {
