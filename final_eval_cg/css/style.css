@@ -210,7 +210,7 @@ footer a:hover {
 
 /* Media Queries */
 
-@media (max-width: 480px) {
+@media (width: 480px) {
     body, footer {
         background-color: rgb(6, 6, 33);
     }
