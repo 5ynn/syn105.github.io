@@ -211,7 +211,7 @@ footer a:hover {
 /* Media Queries */
 
 @media (max-width: 480px) {
-    nav {
-        color: rgb(237, 194, 64);
+    body, footer {
+        background-color: rgb(6, 6, 33);
     }
   }
