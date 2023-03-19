@@ -210,8 +210,17 @@ footer a:hover {
 
 /* Media Queries */
 
-@media screen and (max-width: 600px) {
-    body, footer {
-        background-color: rgb(6, 6, 33);
+@media screen and (max-width: 1366px) {
+    #top_list {
+        margin-top: 0;
+    }
+    #image_grid {
+        margin: 1;
+    }
+    form #second-para {
+        margin-top: 0;
+    }
+    #all {
+        height: 85vh;
     }
   }
