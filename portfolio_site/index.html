@@ -4,14 +4,10 @@
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap link -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Css stylesheet -->
+    <!-- Nav css stylesheet -->
+        <link rel="stylesheet" href="css/nav.css">
+    <!-- Stylesheet link -->
         <link rel="stylesheet" href="css/style.css">
-    <!-- Contact link -->
-        <link rel="stylesheet" href="contact.html">
-    <!-- Gallery link -->
-        <link rel="stylesheet" href="gallery.html">
     <!-- Font aewsome link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google icon link -->
@@ -22,37 +18,63 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <!-- Page logo/image here -->
-        <div id="logo">
-
-        </div>
-    <!-- Header content here -->
-        <main id="heading">
-            <header>
-                <h1 id="main title">Cynthia Greffin</h1>
-                <h2></h2>
-            </header>
-        </main>
-    <!-- Navigation bar here -->
+    <!-- Header content with logo here -->
+        <header id="head">
+            <h1 id="main title">Cynthia Greffin</h1>
+            <h2>Grapghic Design and Digital Art</h2>
+        </header>
+        <br>
+    <!-- Javascript portfolio navigation bar here -->
         <nav>
-            <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <ul class="navbar">
+    <!-- Other dropdown items -->
                 <li>
-                    <a href="#"></a>
+                    <button class="nav-button" id="nav-button" onclick="toggleClass()">
+                        Portfolio
+                    </button>
+                    <ul class="subpages" id="dropdown">
+                        <li><a href="illustrator.html">Illustrator</a></li>
+                        <li><a href="photoshop.html">Photoshop</a></li>
+                        <li><a href="print_design.html">Print Design</a></li>
+                        <li><a href="motion_graphics.html">Motion Graphics</a></li>
+                        <li><a href="ui_ux.html">UI/UX</a></li>
+                        <li><a href="web_development.html">Web Development</a></li>
+                    </ul>        
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+    <!-- End of Javascript navagation bar -->
+        </nav>
+        <br>
+    <!-- Page content goes here -->
+        <main>
+            <section>
+            </section>
+        </main>
+        <br>
+    <!-- About me section here -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Column
+                  </div>
+                  <div class="col">
+                    Column
+                  </div>
+            </div>
+        </div>
+        <br>
     <!-- Footer section here -->
         <footer id="footer"></footer>
-    <!-- Add script here -->
-    <script src="js/app.js"></script>
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Javascript link here -->
+    <script src="js_folder/app.js"></script>
     </body>
 </html>
